@@ -5,6 +5,6 @@
 #include <string.h>
 
 int main(void){
-	printf ("\tDiretorio atual: %s\n", getenv("PWD"));
+	printf ("\tDiretorio atual: %s\n", getenv("PWD")); //Printa o diretorio atual. 
 	return 0;
 }
